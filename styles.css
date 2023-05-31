@@ -1,0 +1,107 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 40px;
+	font-size: 20px;
+	padding-bottom: 200px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	margin-top: 20px;
+	line-height: 1.3em;
+	max-width: 600px;
+	margin: auto;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 6px;
+	line-height: 1.3em;
+	max-width: 600px;
+	margin: auto;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3em;
+	max-width: 600px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.3em;
+	max-width: 600px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+ul {
+	font-size: 20px;
+	line-height: 1.3em;
+	max-width: 600px;
+	margin: auto;
+}
+
+li {
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+a {
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: magenta;
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	body {
+		max-width: 95%;
+		padding-top: 80px;
+	}
+	
+	h1 {
+		font-size: 60px;
+		max-width: 95%;
+		line-height: 1.4em;
+	}
+	h2 {
+		font-size: 30px;
+		max-width: 95%;
+		line-height: 1.5em;
+		margin-top: 30px;
+	}
+	h3 {
+		font-size: 24px;
+		line-height: 1.5em;
+		max-width: 95%;
+		padding-top: 50px;
+	}
+	p {
+		font-size: 24px;
+		line-height: 1.5em;
+		max-width: 95%;
+		padding-top: 40px;
+	}
+	ul {
+		font-size: 24px;
+		line-height: 1.5em;
+		max-width: 95%;
+	}
+	li {
+		padding-top: 30px;
+		margin-left: 30px;
+	}
+}
