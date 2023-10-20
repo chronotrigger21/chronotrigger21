@@ -1,136 +1,144 @@
-
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	max-width: 600px;
-	margin: auto;
-	padding-top: 40px;
-	font-size: 18px;
-	padding-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 18px;
+    padding-bottom: 200px;
 }
 
 h1 {
-	font-size: 48px;
-	font-weight: normal;
-	margin-top: 20px;
-	line-height: 1.3em;
-	max-width: 600px;
-	margin: auto;
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 1.3em;
+    max-width: 600px;
+    margin: auto;
 }
 
 h2 {
-	font-size: 32px;
-	font-weight: normal;
-	padding-top: 6px;
-	line-height: 1.3em;
-	max-width: 600px;
-	margin: auto;
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 6px;
+    line-height: 1.3em;
+    max-width: 600px;
+    margin: auto;
 }
 
 h3 {
-	font-size: 22px;
-	font-weight: bold;
-	line-height: 1.3em;
-	max-width: 600px;
-	margin: auto;
-	padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.3em;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
 }
 
 p {
-	font-size: 18px;
-	line-height: 1.3em;
-	max-width: 600px;
-	margin: auto;
-	padding-top: 15px;
+    font-size: 18px;
+    line-height: 1.3em;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 15px;
 }
 
 ul {
-	font-size: 18px;
-	line-height: 1.3em;
-	max-width: 600px;
-	margin: auto;
+    font-size: 18px;
+    line-height: 1.3em;
+    max-width: 600px;
+    margin: auto;
 }
 
 li {
-	padding-top: 10px;
-	margin-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+li.extraSpacing {
+    padding-top: 20px;
 }
 
 a {
-	font-weight: bold;
-	color: blue;
-	text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:hover {
-	color: magenta;
+    color: magenta;
 }
 
 a#homelink {
-	display: block;
-	margin-bottom: 20px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 table {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
 }
 
 tr {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 td.col30 {
-	width: 30%;
+    width: 30%;
 }
 
 td.col70 {
-	width: 70%;
+    width: 70%;
 }
 
 img.centeredImage {
-	display: block;
-	max-width: 100%;
-	margin: auto;
-	padding-top: 30px;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
 }
 
 @media only screen and (max-width: 1000px) {
-	
-	body {
-		max-width: 95%;
-		padding-top: 80px;
-	}
-	
-	h1 {
-		font-size: 60px;
-		max-width: 95%;
-		line-height: 1.4em;
-	}
-	h2 {
-		font-size: 30px;
-		max-width: 95%;
-		line-height: 1.5em;
-		margin-top: 30px;
-	}
-	h3 {
-		font-size: 24px;
-		line-height: 1.5em;
-		max-width: 95%;
-		padding-top: 50px;
-	}
-	p {
-		font-size: 24px;
-		line-height: 1.5em;
-		max-width: 95%;
-		padding-top: 40px;
-	}
-	ul {
-		font-size: 24px;
-		line-height: 1.5em;
-		max-width: 95%;
-	}
-	li {
-		padding-top: 30px;
-		margin-left: 30px;
-	}
+
+    body {
+        max-width: 95%;
+        padding-top: 80px;
+    }
+
+    h1 {
+        font-size: 60px;
+        max-width: 95%;
+        line-height: 1.4em;
+    }
+
+    h2 {
+        font-size: 30px;
+        max-width: 95%;
+        line-height: 1.5em;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 1.5em;
+        max-width: 95%;
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 1.5em;
+        max-width: 95%;
+        padding-top: 40px;
+    }
+
+    ul {
+        font-size: 24px;
+        line-height: 1.5em;
+        max-width: 95%;
+    }
+
+    li {
+        padding-top: 30px;
+        margin-left: 30px;
+    }
 }
