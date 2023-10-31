@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(128, 255, 255);
+}
+a:hover {
+    color: rgb(128, 128, 255);
+}
+
+a.nav-link {
+    color: white;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 17px;
+}
+
+div#benContent {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 1.5em;
+}
+
+h3 {
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    line-height: 1.4em;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+li {
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+
+p.blogTocTitle {
+    margin-bottom: 0px;
+}
+
+p.blogTocTitle a {
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 1.3em;
+}
+
+p.blogTocDate {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 26px;
+}
